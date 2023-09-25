@@ -68,7 +68,7 @@
 
     .page-container {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     } 
 
     .page-container > .contact-grid-wrapper {
@@ -94,7 +94,7 @@
 
     .form >.centered-btn-wrapper {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
 
     /* company page */
