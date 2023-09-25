@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+    /* homepage */
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+        padding: 20px ;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-bottom: 25px;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-bottom: 15px;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .container {
+       height: 100%;
+       display: grid;
+       width: 100%;
+    }
+
+    .container > .type-of-service {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    .container > .type-of-service a {
+        margin-top: 0;
+        border: none;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .container > .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    /* page */
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .skewed-header > .header-bg {
+        background-size: 100%;
+        background-position: inherit;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+        margin-bottom: 70px;
+    }
+
+    /* contact page */
+
+    .page-container {
+        display: flex;
+        justify-content: center;
+    } 
+
+    .page-container > .contact-grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-container > .contact-grid-wrapper > .contact-details-container > .company-details-wrapper a {
+        order: 1;
+        text-align: left;
+    }
+
+    .page-container > .contact-grid-wrapper > .contact-details-container > .company-details-wrapper i {
+        order: 2;
+    }
+
+    .form {
+       width: 350px;
+    }
+
+    .form >.centered-btn-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* company page */
+
+    .company-data-container > .company-name {
+        margin-left: 15px;
+    }
+
+    /* service  page*/
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .services-container > .services-wrapper {
+        margin-top: 40px;
+        width: 350px;
+    } 
+
+    /* heating pump page */
+
+    .heating-pump {
+        width: 400px;
+        margin-left: 15px;
+
+    }
+}
