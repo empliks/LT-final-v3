@@ -43,8 +43,8 @@
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
-    padding: 10px;
-    width: 175px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2px;
     background-color: var(--hoverColor);
